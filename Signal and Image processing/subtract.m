@@ -1,0 +1,13 @@
+clc;
+clear;
+%p=imread('coins.png');
+%imshow(p);
+%q=fspecial('unsharp',.5);
+%figure;mesh(q)
+%r=conv2(p,q);figure;
+%imshow(r)
+%q=imread('office_2.jpg');
+%figure;imshow(q);
+%r=imabsdiff(p,q);
+%figure;imshow(r)
+%figure;imshow(r/max(max(r)))

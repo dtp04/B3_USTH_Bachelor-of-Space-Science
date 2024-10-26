@@ -1,0 +1,10 @@
+clc;
+clear;
+p=imread('rice.png');
+imshow(p)
+q=imread('cameraman.tif');
+figure;
+imshow(q)
+r=imadd(p,q);
+figure;
+imshow(r-300)
